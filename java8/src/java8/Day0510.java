@@ -41,8 +41,8 @@ public class Day0510 {
 				computer = bo;
 				break;
 		}
-		
-		if((people == bo && computer == ba) ||(people == ga && computer == bo) || (people == bo && computer == ga)) {
+	
+		if((people.equals(bo) && computer.equals(ba)) || (people.equals(ga) && computer.equals(bo)) || (people.equals(bo) && computer.equals(ga))) {
 			System.out.println("사람승! 사람 : " + people + ",컴퓨터 : " + computer);
 		} else if(people == computer) {
 			System.out.println("비겼습니다! 사람 : " + people + ", 컴퓨터 : " + computer);
