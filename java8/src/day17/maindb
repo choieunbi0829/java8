@@ -1,0 +1,4 @@
+driver=com.mysql.cj.jdbc.OracleDirver
+url=jdbc:mysql://localhost:3306/shopdb?serverTimezone=UTC
+username=root
+password=yt1234
