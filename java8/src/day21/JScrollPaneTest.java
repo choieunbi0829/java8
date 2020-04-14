@@ -20,6 +20,7 @@ public class JScrollPaneTest extends JFrame{
 		jp = new JPanel();
 		jp.setLayout(new GridLayout(10,5));
 		int cnt = 1;
+		
 		for(int i=1; i<=10; i++) {
 			for(int j=1; j<=5; j++) {
 				jp.add(new JButton("버튼" + cnt));
@@ -34,6 +35,7 @@ public class JScrollPaneTest extends JFrame{
 		add(js, BorderLayout.CENTER);
 		
 		//메뉴 만들기
+		
 		JMenuBar jmb = new JMenuBar();
 		setJMenuBar(jmb);
 		JMenu jm1 = new JMenu("파일");
@@ -51,6 +53,7 @@ public class JScrollPaneTest extends JFrame{
 		item3.addActionListener(e -> {
 			System.exit(0);
 		});
+		
 		
 		setSize(250, 250);
 		setVisible(true);
