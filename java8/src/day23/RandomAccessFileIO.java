@@ -9,7 +9,7 @@ public class RandomAccessFileIO {
 		RandomAccessFile rac = new RandomAccessFile("temp.txt", "rw");
 		rac.write(data);
 		System.out.println("파일 출력 : temp.txt");
-		System.out.println("---------------------");
+		System.out.println("--------------------");
 		for(int i=0; i<data.length; i++) {
 			int accpoion = (int)((Math.random() *100) % 10);
 			rac.seek(accpoion);
